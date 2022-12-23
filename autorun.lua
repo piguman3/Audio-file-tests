@@ -291,8 +291,8 @@ fs.getSize(KU))or(HU and
 ((
 GU.files[KU]and GU.files[KU]~=LU)or not GU.files[KU]))or(not HU and FW(GW(d(KU)))~=LU)then e("mismatch %s %s",KU,LU)print("mismatch on",KU,LU)
 table.insert(DU,KU)end end;e"file hashes checked"FU.manifest_URL=EU;local JU=false
-if#DU>0 then JU=JW(FU,DU)end;c("potatOS.current_hash",OU.hash)
-V.set("potatOS.current_manifest",FU)return JU end;local ZW={"bin","potatOS","xlib"})
+if#DU>0 then JU=JW(FU,DU)end;c("potatOS.current_hash",OU.hash))
+V.set("potatOS.current_manifest",FU)return JU end;local ZW={"bin","potatOS","xlib"}
 local function XW(ZU)
 for CU,VU in pairs(ZW)do if fs.exists(VU)and
 not fs.isDir(VU)then end;if not
