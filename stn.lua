@@ -44,15 +44,24 @@ function printD(text, x, y) --Function to print with color
         --print(string.sub(v, 1, 1))
         local color = 2^tonumber(string.sub(v, 1, 2)) --Get color
         term.setBackgroundColor(color) --Set color
-
-        local chunks = mysplit(v, "\n")
-        for _, k in ipairs(chunks) do
-            local dx, dy = term.getCursorPos()
-            if _==1 then
-                term.write(string.sub(k, 3, string.len(k)))
-            else
-                term.write(string.sub(k, 1, string.len(k)))
-            end
+        
+        local dx, dy = term.getCursorPos()
+        if string.find(string.sub(v, 3, string.len(v)), "\n") then --Check if text is going outside and go to the next line using the \n character
+            local dif = 0
+            repeat
+                local dx, dy = term.getCursorPos()
+                local pos, endpos = string.find(string.sub(v, 3+dif, string.len(v)), "\n")
+                if pos == nil then
+                    term.write(string.sub(v, 3+dif, string.len(v)))
+                    break
+                end
+                term.write(string.sub(v, 3+dif, pos+1+dif)) --Print everything but the color value up yo the \n
+                term.setCursorPos(x, dy+1) --Go to next line
+                term.write(string.sub(v, endpos+3+dif, string.len(v))) --finish
+                dif = dif + (string.len(v)-endpos+3)
+            until string.find(string.sub(v, endpos+3, string.len(v)),"\n") == nil
+        else
+            term.write(string.sub(v, 3, string.len(v))) --Print everything but the color value
         end
     end
 end
