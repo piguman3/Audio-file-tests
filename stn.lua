@@ -1,4 +1,4 @@
-local monitorg
+local monitor
 print("Using monitor? [y/n]")
 
 local input = io.read()
@@ -45,14 +45,14 @@ function printD(text, x, y) --Function to print with color
         local color = 2^tonumber(string.sub(v, 1, 2)) --Get color
         term.setBackgroundColor(color) --Set color
 
-        local dx, dy = term.getCursorPos()
-        if string.find(string.sub(v, 3, string.len(v)), "\n") then --Check if text is going outside and go to the next line using the \n character
-            local pos, endpos = string.find(string.sub(v, 3, string.len(v)), "\n")
-            term.write(string.sub(v, 3, pos+1)) --Print everything but the color value up yo the \n
-            term.setCursorPos(x, dy+1) --Go to next line
-            term.write(string.sub(v, endpos+3, string.len(v))) --finish
-        else
-            term.write(string.sub(v, 3, string.len(v))) --Print everything but the color value
+        local chunks = mysplit(v, "\n")
+        for _, k in ipairs(chunks) do
+            local dx, dy = term.getCursorPos()
+            if _==1 then
+                term.write(string.sub(k, 3, string.len(k)))
+            else
+                term.write(string.sub(k, 1, string.len(k)))
+            end
         end
     end
 end
