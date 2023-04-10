@@ -52,7 +52,7 @@ local Video = {"?15\159\159\159\159\159\159\159\159\159\159\159\159\159\159\159\
 local monitor
 print("Using monitor? [y/n]")
 
-local input = read()
+local input = "y"
 local rx = 82
 local ry = 19
 
