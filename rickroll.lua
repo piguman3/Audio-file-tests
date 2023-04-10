@@ -51,17 +51,13 @@ local Video = {"?15\159\159\159\159\159\159\159\159\159\159\159\159\159\159\159\
 }
 local monitor
 print("Using monitor? [y/n]")
-
-local input = "y"
 local rx = 82
 local ry = 19
 
-if (input == "y") then
-    monitor = peripheral.find("monitor")
-    monitor.setCursorPos(1,1)
-    monitor.setTextScale(1)
-    term.redirect(monitor)
-end
+monitor = peripheral.find("monitor")
+monitor.setCursorPos(1,1)
+monitor.setTextScale(1)
+term.redirect(monitor)
 
 term.setBackgroundColor(colors.white)
 term.setTextColor(colors.black)
