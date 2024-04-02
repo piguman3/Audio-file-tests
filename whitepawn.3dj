@@ -1,0 +1,67 @@
+{
+	"label": "pawn",
+	"tooltip": "Made with Blockbench",
+	"isButton": false,
+	"collideWhenOn": true,
+	"collideWhenOff": true,
+	"lightLevel": 0,
+	"redstoneLevel": 0,
+	"shapesOff": [
+		{
+			"bounds": [11, 0, 5, 12, 1, 11],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [5, 0, 4, 11, 1, 12],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [4, 0, 5, 6, 1, 11],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [5, 1, 5, 11, 2, 11],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [6, 2, 6, 10, 7, 10],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [7, 7, 7, 9, 15, 9],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [5, 11, 7, 11, 13, 9],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [7, 11, 5, 9, 13, 11],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [6, 11, 6, 10, 13, 10],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [6, 10, 7, 10, 14, 9],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [7, 10, 6, 9, 14, 10],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		}
+	],
+	"shapesOn": []
+}

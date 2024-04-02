@@ -1,0 +1,112 @@
+{
+	"label": "queen",
+	"tooltip": "Made with Blockbench",
+	"isButton": false,
+	"collideWhenOn": true,
+	"collideWhenOff": true,
+	"lightLevel": 0,
+	"redstoneLevel": 0,
+	"shapesOff": [
+		{
+			"bounds": [11, 0, 5, 12, 1, 11],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [5, 0, 4, 11, 1, 12],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [4, 0, 5, 6, 1, 11],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [5, 1, 5, 11, 4, 11],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [6, 4, 6, 10, 8, 10],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [5, 12, 5, 11, 14, 11],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [5, 14, 5, 6, 16, 6],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [5, 14, 7, 6, 16, 9],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [10, 14, 5, 11, 16, 6],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [10, 14, 10, 11, 16, 11],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [5, 14, 10, 6, 16, 11],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [10, 14, 7, 11, 16, 9],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [7, 14, 10, 9, 16, 11],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [7, 14, 5, 9, 16, 6],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [5, 9, 5, 11, 11, 11],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [6, 8, 5, 10, 12, 11],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [6, 8, 6, 10, 13, 10],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [5, 8, 6, 11, 12, 10],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [4, 9, 6, 12, 11, 10],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		},
+		{
+			"bounds": [6, 9, 4, 10, 11, 12],
+			"texture": "minecraft:block/white_concrete",
+			"tint": "FFFFFF"
+		}
+	],
+	"shapesOn": []
+}
